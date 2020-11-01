@@ -8,7 +8,8 @@ const dado1 = 10 // número inteiro
 const dado2 = 20 // número inteiro
 const resultado = dado1 / dado2
 console.log(resultado)
-
+// Booleano
+true e false
 const dado1 = "daniel" // texto string 
 const dado2 = " marques" // texto string
 const resultado = dado1 + dado2
