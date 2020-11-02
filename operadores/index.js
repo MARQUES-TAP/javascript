@@ -17,23 +17,34 @@
 //case
 
 //Resultado é um valor Booleano = boolean = true ou false
+// entrada = idade
+const minhaIdade = 18
 
-const MaiorIdade = 18
-const MinhaIdade = 30
+//regras :
+const maiorIdade = 18
+const idoso = 65
 
-const nome1 = "Daniel"
-const nome2 = "Fredd"
-
-const nomeAceito = "Daniel"
-
-if (MaiorIdade !== MinhaIdade MaiorIdade > 20) {
-    console.log("O Desenvolvedor com o nome " + nome1 + " é maior de idade")
-} else {
-    console.log("O Desenvolvedor com o nome " + nome1 + " é Menor de idade")
-}
 
 // faça uma condição que exiba se a idade é : 
 // menor de idade abaixo de 18 anos
-// maior de idade acima de 18 anos
-// idoso Acima de 65 anos
-// voce pode fazer varias condições de if e else para testar
+
+if (minhaIdade < maiorIdade) {
+    console.log("Você é menor de idade")
+}
+if (minhaIdade >= idoso) {
+    console.log("Você é um idoso")
+} else {
+    console.log("Você é maior de idade")
+}
+
+
+// Identificar curva de venda de um produto 0->100
+
+// entrada = quantidadeVendida
+const quantidadeVendida = 50
+
+//curva D = 0 -> [20]
+//curva C = 21 -> [30]
+//curva B = 31 -> [40]
+//curva A = acima de [41]
+// imprimir na tela qual a curva do produto:
